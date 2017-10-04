@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="32" tileheight="32" backgroundcolor="#005500" nextobjectid="1">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="../img/tilesets/ground clone.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="SmashLayer" width="32" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NiYGBgGsWjeBSP4lE8KDEjDjFs4rSyB12O2vbjs4NY+9HV49JLrJ5RPPwxAEUyTZ0ACQAA
+  </data>
+ </layer>
+</map>
